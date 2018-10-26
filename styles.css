@@ -1,0 +1,109 @@
+/* .bg {
+  background-image: url("/assets/vector-mountain-valley-path-landscape-first-person-view.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+} */
+
+/* .bg {
+  background-image: url("/assets/mountain-lake-sunset-landscape-first-person-view-vector.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-position: center;
+} */
+
+.bg {
+  background-image: url("assets/forest-patrol.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  /* background-position: right;  */
+}
+
+.topBar {
+  display:flex;
+  align-content: center;
+}
+
+.topBarR1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.topBarR2 {
+  margin-left: .45rem;
+  margin-right: .45rem;
+}
+
+.imgText {
+  min-height: 20vh;
+  display: flex;
+  align-items: flex-end;
+  /* border: 5px solid red; */
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: 10vh;
+}
+
+.spacing {
+  min-height: 35vh;
+}
+
+.about {
+  padding-top: 1vh;
+  min-height: 4vh;
+  background-color: rgb(34, 34, 34);
+  color: rgb(233, 233, 233);
+  display:flex;
+  align-items: flex-end;
+}
+
+.about2 {
+  background-color: rgb(34, 34, 34);
+  color: rgb(233, 233, 233);
+  display:flex;
+  text-align: center;
+  /* height: 20vh */
+  padding-bottom: 5vh;
+}
+
+.about-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-left {
+  display:flex;
+  align-items: center;
+}
+
+.portfolio {
+  display:flex;
+  min-height: 8vh;
+  align-items: center;
+  color: rgb(233, 233, 233)
+}
+
+.projects {
+  text-align:center;
+  color: rgb(233, 233, 233);
+  padding-bottom: 5vh
+}
+
+.projects * {
+  border-radius: 10%;
+}
+
+@media (max-width: 577px) {
+  .imgText {
+    margin-top: 3vh;
+  }
+  .about-right {
+    justify-content: center;
+  }
+  .about-left {
+    margin-top: 5px;
+  }
+}
