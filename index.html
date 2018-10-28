@@ -7,13 +7,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <!-- BACKGROUND -->
-  <div class="container-fluid bg">
+  <header class="container-fluid bg" style="height:100vh;">
     <!-- INTRO BAR -->
     <div class="row topBar">
       <div class="col-6">
@@ -34,8 +34,10 @@
       </div>
     </div>
     <!-- OPEN SPACE -->
-    <div class="row spacing"></div>
+    <!-- <div class="row spacing"></div> -->
     <!-- ABOUT -->
+  </header>
+  <div class="container-fluid">
     <div class="row about">
       <div class="col-6">
         <h2>About</h2>
@@ -43,21 +45,24 @@
     </div>
     <div class="row about2">
       <div class="col-12 col-md-4 about-right">
-        <img src="http://placehold.it/200x200" alt="placeholder" style="border-radius:10%">
+        <div><img src="http://placehold.it/250x250" alt="placeholder" style="border-radius:10%"></div>
       </div>
       <div class="col-12 col-md-6 about-left">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, modi quis?
           Deleniti facilis dignissimos
           natus unde accusantium quae consequuntur. Ex rem vitae omnis deleniti, iste minima voluptatibus neque fugit
-          tempora!<br>
+          tempora! <br>
 
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus unde delectus repudiandae hic accusantium,
-          fuga sequi temporibus distinctio voluptates dolorum porro cumque corporis illo ullam pariatur vitae officiis
-          molestias animi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis incidunt aspernatur autem quos voluptates in
+          corrupti explicabo, doloremque recusandae mollitia qui dignissimos voluptatem labore asperiores beatae
+          repellendus facilis? Molestias distinctio voluptate dolorem sapiente quae cum vero quam dicta accusantium,
+          eveniet tenetur. Commodi aliquid.
         </p>
       </div>
     </div>
-    <!-- PORTFOLIO -->
+  </div>
+  <!-- PORTFOLIO -->
+  <div class="container-fluid bg2">
     <div class="row portfolio">
       <div class="col-6">
         <h2>Portfolio</h2>
@@ -84,12 +89,56 @@
       </div>
     </div>
     <!-- CONTACT -->
-    <div class="row"></div>
+    <div class="row contact1">
+      <div class="col-6">
+        <h2>Contact</h2>
+      </div>
+    </div>
+    <div class="row contact2">
+      <div class="col-12 col-md-5">
+        <!-- <div class="row">
+          <div class="col"> -->
+        <div class="email1">Name</div>
+
+        <!-- <div class="email1">Email <input type="text" class="textbox" placeholder="Email"></div>
+        <div class="email1">Subject <input type="text" class="textbox" placeholder="Subject"></div> -->
+        <!-- </div>
+        </div> -->
+      </div>
+      <div class="col-md-7 center-mobile"><input type="text" class="textbox" placeholder="Name"></div>
+      <div class="col-12 col-md-5">
+        <div class="email1">Email</div>
+      </div>
+      <div class="col-md-7 center-mobile"><input type="text" class="textbox" placeholder="Email"></div>
+      <div class="col-12 col-md-5">
+        <div class="email1">Subject</div>
+      </div>
+      <div class="col-md-7 center-mobile"><input type="text" class="textbox" placeholder="Subject"></div>
+      <!-- <div class="col-7">
+        <div class="row">
+          <div class="col"> -->
+      <!-- <div class="contact-card box-width">Name</div>
+            <div class="contact-card box-width">Email</div>
+            <div class="contact-card box-width">Subject</div>
+            <div class="contact-card box-width white-space"></div> -->
+      <!-- <div><input type="text" class="textbox" placeholder="Name"></div>
+            <div><input type="text" class="textbox" placeholder="Email"></div>
+            <div><input type="text" class="textbox" placeholder="Subject"></div>
+            <div><input type="text" class="textbox white-space"></div> -->
+      <!-- </div>
+        </div>
+      </div> -->
+    </div>
     <!-- SOCIAL MEDIA -->
     <div class="row">
+      <div class="col social-media">
+        <div><i class="fab fa-git-square icons"></i></div>
+        <div><i class="fab fa-twitter-square icons"></i></div>
+        <div><i class="fab fa-linkedin icons"></i></div>
+        <div><i class="fab fa-youtube-square icons"></i></div>
+      </div>
     </div>
   </div>
-
 </body>
 
 </html>

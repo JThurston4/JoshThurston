@@ -17,8 +17,10 @@
   background-image: url("assets/forest-patrol.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
-  /* background-position: right;  */
+  background-position: right; 
+}
+.bg2 {
+  background-color: rgba(14, 31, 47, 0.95);
 }
 
 .topBar {
@@ -65,8 +67,9 @@
   color: rgb(233, 233, 233);
   display:flex;
   text-align: center;
-  /* height: 20vh */
+  min-height: 60vh;
   padding-bottom: 5vh;
+  align-items: center;
 }
 
 .about-right {
@@ -77,6 +80,7 @@
 .about-left {
   display:flex;
   align-items: center;
+  font-size: 20px;
 }
 
 .portfolio {
@@ -96,14 +100,116 @@
   border-radius: 10%;
 }
 
-@media (max-width: 577px) {
+.contact1 {
+  background-color: rgb(34, 34, 34);
+  color: rgb(233, 233, 233);
+  padding-top: 1vh;
+  min-height: 4vh;
+  display: flex;
+  align-items: flex-end;
+  /* min-height:10vh; */
+}
+
+.contact2 {
+  background-color: rgb(34, 34, 34);
+  color: rgb(233, 233, 233);
+  /* padding-bottom: 5vh; */
+  display:flex;
+  justify-content: space-between;
+}
+
+.email1 {
+  display: flex;
+  justify-content: flex-end;
+  /* padding: 3px 12px;
+  margin-bottom: 10px; */
+}
+
+.box-width {
+  max-width: 95vh;
+  min-width: 52vh;
+}
+
+.contact-card {
+  color: rgba(63, 63, 63, 0.5);
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 50vh;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 4px;
+  padding: 3px 12px;
+  margin-bottom: 10px;
+}
+
+.textbox {
+  border-radius: 4px;
+  margin-bottom: 10px;
+  min-width: 30vh;
+}
+
+.white-space {
+  /* background: white; */
+  min-height: 8vh;
+}
+
+.social-media {
+  background-color: rgb(34, 34, 34);
+  display:flex;
+  height: 6vh;
+}
+
+.icons {
+  color: rgb(112, 112, 112);
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 813px) {
+  .social-media {
+    height:6vh;
+  }
+}
+
+@media (max-width: 812px) {
+  .social-media {
+    height:14vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .social-media {
+    height:6vh;
+  }
+}
+
+@media (max-width: 767px) {
   .imgText {
-    margin-top: 3vh;
+    margin-top: 5vh;
   }
   .about-right {
     justify-content: center;
   }
   .about-left {
     margin-top: 5px;
+  }
+  .email1 {
+    justify-content: center;
+  }
+  .center-mobile {
+    display: flex;
+    justify-content: center;
+  }
+  .social-media {
+    height: 15vh;
+  }
+  .bg {
+    background-position:center;
+  }
+}
+
+@media (max-width: 415px) {
+  .social-media {
+    height: 8vh;
   }
 }
