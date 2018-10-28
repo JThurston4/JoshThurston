@@ -115,7 +115,7 @@
   color: rgb(233, 233, 233);
   /* padding-bottom: 5vh; */
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .email1 {
@@ -151,6 +151,8 @@
 .white-space {
   /* background: white; */
   min-height: 8vh;
+  margin-top: 10px;
+  
 }
 
 .social-media {
