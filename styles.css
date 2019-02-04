@@ -10,6 +10,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right; 
+  background-attachment: fixed;
 }
 
 .bg2 {
@@ -49,7 +50,7 @@
   align-content: center;
   margin-top: 10vh;
   color: rgb(33, 37, 41);
-  text-shadow: 2px 2px 1px rgb(77, 50, 2);
+  text-shadow: 1px 1px 1px rgb(77, 50, 2);
 }
 
 .spacing {
